@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .news .container {
+        justify-content: center;
+    }
+    .news .box {
+        max-width: 100%;
+    }
+    .title {
+        text-align: center;
+    }
+    .desc {
+        text-align: justify;
+    }
+    .header a {
+        display: block;
+    }
+    .footer a {
+        display: block;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    nav .container {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .menu {
+        max-width: 500px;
+    }
+    .preview .card {
+        width: 100%;
+    }
+    .preview {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .title {
+        text-align: center;
+    }
+    .header a {
+        display: block;
+    }
+    .footer a {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .preview .card {
+        width: 100%;
+    }
+    .preview {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header a {
+        display: block;
+    }
+    .footer a {
+        display: block;
+    }
+    .preview img {
+        order: -1;
+    }
+    .color2 {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+    .color4 {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+    .card .pic2 {
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+    .card .pic4 {
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+}
